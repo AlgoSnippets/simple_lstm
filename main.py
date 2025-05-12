@@ -26,7 +26,7 @@ def calculate_metrics(y_true, y_pred, y_pred_binary):
 def main():
     ticker = 'AAPL'
     start_date='2020-01-01'
-    end_date='2025-04-26'
+    end_date='2025-04-25'
 
     data = pd.read_csv(f"data_cache/{ticker}_data.csv", index_col=0, parse_dates=True)
     data = data.sort_index(ascending=True)
