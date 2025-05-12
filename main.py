@@ -1,10 +1,7 @@
-import os
 import numpy as np
 import pandas as pd
 import tensorflow as tf
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-
-from data_processor import DataProcessor
 
 
 def build_sequences(data, sequence_length):
