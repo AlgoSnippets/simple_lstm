@@ -64,3 +64,5 @@ python main.py
 
 - The CSV file must have at least a 'Close' column.
 - This project is for educational purposes and does not constitute financial advice.
+
+- This code is for educational and research purposes only. Not investment advice.
